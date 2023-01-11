@@ -1,0 +1,16 @@
+li {
+    margin: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 15px;
+    list-style: disc;
+    list-style: none;
+    text-align: left;
+}
+
+a {
+    font-family:'Times New Roman', Times, serif;
+    background-color: brown;
+    color: white;
+    text-decoration: solid;
+    padding : 10px;
+}
