@@ -1,50 +1,6 @@
-#container {
-    padding: 10px 60px;
-    display:flex;
-    align-items: center;
-    justify-content: space-between; 
-}
-
-header {
-    position: absolute;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-header ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;    
-    justify-content: flex-end;
-}
-
-header li {
-    padding: 10px;
-    text-align: right;
-}
-
-header li a {
-    background-color: rgba(36, 36, 36, 0.623);
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
-    padding : 10px;
-    font-size: 15px;
-    text-decoration: none;
-}
-
-header li a:hover {
-    background-color: rgb(255, 255, 255, 0.8);
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
-    color :black;
-    border-radius: 5px;
-    padding : 10px;
-    }
-
 #hero {
-    height: 800px;
-    background-image: url(images/place/ocean.jpg);
+    height: 600px;
+    background-image: url(images/places/niceass.jpg);
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -98,3 +54,48 @@ header li a:hover {
 #hero-content a:hover {
     background-color: rgb(251, 255, 15);
 }
+
+#highlights {
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#highlights h2{
+    margin: 40px auto 30px auto;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+
+#destinations{
+    width : 90%;
+    padding : 0 auto;
+    display : flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.destination{
+    margin : auto;
+    margin: 0, 20px;
+}
+
+.destination p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:20px;
+}
+
+.destination img { 
+    Height: 200px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(68,67,67);
+    object-fit: cover;
+}
+

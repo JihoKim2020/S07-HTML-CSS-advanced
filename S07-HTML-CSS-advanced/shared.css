@@ -12,3 +12,67 @@ body {
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgb(61, 61, 37);
 }
+
+#container {
+    padding: 10px 60px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;    
+    justify-content: flex-end;
+}
+
+header li {
+    padding: 10px;
+    text-align: right;
+}
+
+header li a {
+    background-color: rgba(36, 36, 36, 0.623);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding : 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: rgb(255, 255, 255, 0.8);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    color :black;
+    border-radius: 5px;
+    padding : 10px;
+    }
+
+
+footer {
+    width : 100%;
+    position: fixed;
+    bottom: 0;
+    margin : 0 auto;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin: 5px 20px;
+}
