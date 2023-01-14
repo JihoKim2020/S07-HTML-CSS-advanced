@@ -2,13 +2,24 @@ header{
     position : static;
 }
 
+#page-logo a {
+    color: rgb(183, 230, 235);
+}
+
+header li a {
+    color: rgb(183, 230, 235);
+}
+
 body {
     background: linear-gradient(30deg, rgb(77,77,77), #3f3f3f)
 }
 
-main ul {
+#cards {
     width: 1200px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+    margin: 0 auto 120px auto;
 }
 
 main li {
@@ -20,6 +31,11 @@ main li {
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
     border-radius: 6px;
     overflow: hidden;
+}
+
+
+li:nth-of-type(3) {
+    grid-column: 1 / span 2;
 }
 
 main li img {
